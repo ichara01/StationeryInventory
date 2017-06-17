@@ -1,7 +1,6 @@
 package com.example.ioanna.ayianapatourguide;
 
 import android.content.Context;
-import android.os.Parcelable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -48,8 +47,6 @@ public class ItemArrayAdapter extends ArrayAdapter<SimpleListItem> {
         // Set Image item
         ImageView iconView = (ImageView) listItemView.findViewById(R.id.item_img);
         iconView.setImageResource(currentItem.getImageID());
-
-        //Button btnMore = (Button) listItemView.findViewById(R.id.simple_item_btn_more);
         // Return the whole list item layout so that it can be shown in the ListView
         return listItemView;
     }

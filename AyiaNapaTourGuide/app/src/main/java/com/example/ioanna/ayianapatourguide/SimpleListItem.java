@@ -17,12 +17,6 @@ public class SimpleListItem implements Parcelable {
     private String mShortDescription;
     private String mDescription;
 
-    SimpleListItem(String mTitle, String mDescription){
-        this.mHeader = mTitle;
-        this.mDescription = mDescription;
-        this.mShortDescription = mDescription;
-    }
-
     SimpleListItem(String mTitle, int imgId){
         this.mHeader = mTitle;
         this.mImgID = imgId;

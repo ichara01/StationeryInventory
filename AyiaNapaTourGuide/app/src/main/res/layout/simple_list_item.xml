@@ -20,9 +20,4 @@
             style="@style/list_item_header"
             android:paddingLeft="@dimen/item_padding"/>
     </LinearLayout>
-    <!--<Button-->
-        <!--android:id="@+id/simple_item_btn_more"-->
-        <!--style="@style/list_item_action_btn"-->
-        <!--android:background="@color/colorPrimary"-->
-        <!--android:text="@string/btn_more"/>-->
 </LinearLayout>
