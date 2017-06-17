@@ -23,6 +23,11 @@ public class SimpleListItem implements Parcelable {
         this.mShortDescription = mDescription;
     }
 
+    SimpleListItem(String mTitle, int imgId){
+        this.mHeader = mTitle;
+        this.mImgID = imgId;
+    }
+
     SimpleListItem(String mTitle, String mDescription, int imgId){
         this.mHeader = mTitle;
         this.mShortDescription = mDescription;

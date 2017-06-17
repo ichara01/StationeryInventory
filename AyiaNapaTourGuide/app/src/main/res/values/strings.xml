@@ -29,4 +29,64 @@
     <string name="currency">Currency:</string>
     <string name="currency_value">Euro</string>
 
+    <string name="beach_greco">Cape Greco</string>
+    <string name="beach_nissi">Nissi Bay</string>
+    <string name="beach_korakas">Kamara tou Koraka</string>
+    <string name="beach_macronissos">Macronissos</string>
+    <string name="beach_kambouris">Ammos tou Kambouri</string>
+    <string name="beach_landa">Landa</string>
+
+    <string name="rest_glasshouse">Glasshouse Lounge Restaurant</string>
+    <string name="rest_glasshouse_adrress">Adams Beach Hotel, Ayia Napa</string>
+    <string name="rest_sage">Sage Restaurant And Wine Bar</string>
+    <string name="rest_sage_address">Kryou Nerou 8, Agia Napa</string>
+    <string name="rest_tavernaki">En-yevo tavernaki</string>
+    <string name="rest_tavernaki_address">Dionysiou Solomou 16, Agia Napa</string>
+    <string name="rest_quadro">Quadro</string>
+    <string name="rest_quadro_adrress">Kryou Nerou, Ayia Napa</string>
+    <string name="rest_los_bandidos">Los Bandidos</string>
+    <string name="rest_los_bandidos_address">Ari Velouchioti 2, Ayia Napa</string>
+    <string name="rest_eden">The Garden of Eden Restaurant</string>
+    <string name="rest_eden_address">Nissi Avenue 144, Ayia Napa</string>
+    <string name="rest_flames">Flames Restaurant and Bar</string>
+    <string name="rest_flames_address">Agias Mavris Avenue 58, Ayia Napa</string>
+
+    <string name="international_cusine">International, Mediterranean, European</string>
+    <string name="greek_cusine">Greek, Grill, Vegetarian Friendly</string>
+    <string name="italian_cusine">Italian, Pizza, Mediterranean</string>
+    <string name="mexican_cusine">Mexican, Vegetarian Friendly</string>
+    <string name="steakhouse_cusine">Steakhouse, Mediterranean, European</string>
+
+    <string name="price4">$$$$</string>
+    <string name="price2_3">$$ - $$$</string>
+
+    <string name="seniorfrog">Senior Frog</string>
+    <string name="nissibay">Nissi Bay</string>
+    <string name="makronissos">Makronissos</string>
+    <string name="soho">Soho</string>
+    <string name="bedrock">Bedrock Inn</string>
+    <string name="castle">The Castle Club</string>
+    <string name="black_white">Black &amp; White</string>
+    <string name="riverreggae">River Reggae</string>
+
+    <string name="bar">Bar</string>
+    <string name="night_club">Night Club</string>
+    <string name="after_party">After Party Night Club</string>
+
+    <string name="cape_greco_park">Cape Greco National Forest Park</string>
+    <string name="cape_greco_park_short_desc">It is a relatively unspoilt area with great natural beauty</string>
+    <string name="cape_greco_park_desc">Explore the multitude of intriguing nature trails lined with pine trees and a diverse botanical splendour whilst pausing to take in the spectacular views from the sea cliffs looking down to the beautiful Mediterranean Sea.</string>
+
+    <string name="waterWorld">WaterWorld Themed Waterpark</string>
+    <string name="waterWorld_short_desc">It is the largest themed waterpark in Europe and one of Cyprus\'s biggest attractions</string>
+    <string name="waterWorld_desc">The award-winning Greek themed waterpark. With over 21 thrilling rides for all ages, the park is themed on ancient Greek mythology.Top attractions include Chariots chase, Aeolos Whirlpool, the River Odyssey and Poseidon wave pool.</string>
+
+    <string name="sculpture_park">Ayia Napa Sculpture Park</string>
+    <string name="sculpture_park_short_desc">The open air sculpture museum with more than 20 sculptors from around the world</string>
+    <string name="sculpture_park_desc">It features stunning works of art from international artists displayed in an open air museum.Located at the eastern edge of Ayia Napa the sculpture park covers an area of 20,000 sq.m. The rocky landscape slopes down to the sea and provides a serene and peaceful backdrop to this visually exciting display of modern artwork.</string>
+
+    <string name="lunapark">Parko Paliatso Fun Fair &amp; Luna Parl</string>
+    <string name="lunapark_short_desc">Fun for all family"</string>
+    <string name="lunapark_desc">Parko Paliatso Luna park is a family owned funfair in the heart of Ayia Napa, on Nissi Avenue. It opened in 1999 and today covers an area of 25,000 square metres with more than 25 attractions.</string>
+
 </resources>
