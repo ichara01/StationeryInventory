@@ -5,6 +5,7 @@ package com.example.ioanna.ayianapatourguide;
  */
 
 public class NavMenu {
+    //Navigation menu
     enum MenuItems{
         About,
         Beaches,
@@ -13,8 +14,10 @@ public class NavMenu {
         ThingsToDo
     }
 
+    //Types of list view items
     enum ItemType{
         Simple, //image and title
-        Description  //image, title and short description
+        Description,  //image, title and short description
+        Restaurant
     }
 }

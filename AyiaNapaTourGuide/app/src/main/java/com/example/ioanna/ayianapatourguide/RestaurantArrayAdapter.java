@@ -51,7 +51,7 @@ public class RestaurantArrayAdapter extends ArrayAdapter<RestaurantItem> {
         TextView cusinesTextView = (TextView) listItemView.findViewById(R.id.restaurant_cusines);
         cusinesTextView.setText(currentItem.getCuisines());
         // Set Image item
-        ImageView iconView = (ImageView) listItemView.findViewById(R.id.simple_item_img);
+        ImageView iconView = (ImageView) listItemView.findViewById(R.id.restaurant_img);
         iconView.setImageResource(currentItem.getImageID());
         return listItemView;
     }

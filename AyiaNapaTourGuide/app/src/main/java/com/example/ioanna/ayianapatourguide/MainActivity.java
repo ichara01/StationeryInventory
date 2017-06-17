@@ -16,7 +16,8 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener,
                                                                 HomeFragment.OnFragmentInteractionListener,
-                                                                ListFragment.OnFragmentInteractionListener{
+                                                                ListFragment.OnFragmentInteractionListener,
+                                                                RestaurantFragment.OnFragmentInteractionListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,7 +82,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         } else if (id == R.id.nav_beaches) {
             fragment = ListFragment.newInstance(LoadBeaches(),NavMenu.ItemType.Simple, NavMenu.MenuItems.Beaches);
         } else if (id == R.id.nav_restaurants) {
-            fragment = ListFragment.newInstance(LoadRestaurants(),NavMenu.ItemType.Description, NavMenu.MenuItems.Restaurants);
+            fragment = RestaurantFragment.newInstance(LoadRestaurants());
         } else if (id == R.id.nav_nightlife) {
             fragment = ListFragment.newInstance(LoadNightlife(),NavMenu.ItemType.Description, NavMenu.MenuItems.Nightlife);
         } else if (id == R.id.nav_things_to_do) {
@@ -132,12 +133,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private ArrayList<RestaurantItem> LoadRestaurants(){
         ArrayList<RestaurantItem> restaurants = new ArrayList<RestaurantItem>();
         restaurants.add(new RestaurantItem("Glasshouse Lounge Restaurant", "Adams Beach Hotel, Ayia Napa","International, Mediterranean, European","$$$$",R.drawable.glasshouse));
-        restaurants.add(new RestaurantItem("Sage Restaurant & Wine Bar", "Address: Kryou Nerou 8, Agia Napa\nCuisines: International, Mediterranean, European\nPrice: $$$$",R.drawable.sage));
-        restaurants.add(new RestaurantItem("En-yevo tavernaki","Address: Dionysiou Solomou 16, Agia Napa\nCuisines: Greek, Grill, Vegetarian Friendly\nPrice: $$ - $$$",R.drawable.tavernaki));
-        restaurants.add(new RestaurantItem("Quadro","Address: Kryou Nerou, Ayia Napa\nCuisines: Italian, Pizza, Mediterranean\nPrice: $$ - $$$",R.drawable.quadro));
-        restaurants.add(new RestaurantItem("Los Bandidos","Address: Ari Velouchioti 2, Ayia Napa\nCuisines: Mexican, Vegetarian Friendly\nPrice: $$ - $$$",R.drawable.losbandidos));
-        restaurants.add(new RestaurantItem("The Garden of Eden Restaurant", "Address: Nissi Avenue 144, Ayia Napa\nCuisines: International, Mediterranean, European\nPrice: $$ - $$$",R.drawable.edengarden));
-        restaurants.add(new RestaurantItem("Flames Restaurant and Bar", "Address: Agias Mavris Avenue 58, Ayia Napa\nCuisines: Steakhouse, Mediterranean, European\nPrice: $$ - $$$",R.drawable.flames));
+        restaurants.add(new RestaurantItem("Sage Restaurant & Wine Bar", "Kryou Nerou 8, Agia Napa","International, Mediterranean, European","$$$$",R.drawable.sage));
+        restaurants.add(new RestaurantItem("En-yevo tavernaki","Dionysiou Solomou 16, Agia Napa","Greek, Grill, Vegetarian Friendly","$$ - $$$",R.drawable.tavernaki));
+        restaurants.add(new RestaurantItem("Quadro","Kryou Nerou, Ayia Napa","Italian, Pizza, Mediterranean","$$ - $$$",R.drawable.quadro));
+        restaurants.add(new RestaurantItem("Los Bandidos","Ari Velouchioti 2, Ayia Napa","Mexican, Vegetarian Friendly","$$ - $$$",R.drawable.losbandidos));
+        restaurants.add(new RestaurantItem("The Garden of Eden Restaurant", "Nissi Avenue 144, Ayia Napa","International, Mediterranean, European","$$ - $$$",R.drawable.edengarden));
+        restaurants.add(new RestaurantItem("Flames Restaurant and Bar", "Agias Mavris Avenue 58, Ayia Napa","Steakhouse, Mediterranean, European","$$ - $$$",R.drawable.flames));
         return restaurants;
     }
 
