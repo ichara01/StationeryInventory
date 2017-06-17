@@ -1,0 +1,107 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="alertDialogTheme">@style/CustomAlertDialogTheme</item>
+    </style>
+
+    <style name="CustomAlertDialogTheme">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:windowTitleStyle">@style/ScoreHeader</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+        <item name="android:textAppearanceMedium">@style/ScoreItems</item>
+        <item name="android:windowActionBar">true</item>
+    </style>
+
+    <style name="Banner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/buttonTextSize</item>
+        <item name="android:layout_margin">12dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/headerColor</item>
+    </style>
+
+    <style name="Label">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:paddingRight">@dimen/paddingRight</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="LabelValue">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="ScoreHeader">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:paddingRight">@dimen/paddingRight</item>
+        <item name="android:textColor">@color/headerColor</item>
+        <item name="android:textSize">@dimen/headerTextSize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="ScoreItems">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingRight">@dimen/paddingRight</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="InfoArea">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@color/secondBackground</item>
+        <item name="android:textSize">@dimen/headerTextSize</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="NamingColumn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/headerColor</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/textSize</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

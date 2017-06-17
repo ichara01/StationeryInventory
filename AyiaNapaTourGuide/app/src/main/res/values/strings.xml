@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Ayia Napa Tour Guide</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_title_home">Ayia Napa</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="nav_about">About City</string>
+    <string name="nav_beaches">Beaches</string>
+    <string name="nav_restaurants">Restaurants</string>
+    <string name="nav_nightlife">Nightlife</string>
+    <string name="nav_things_to_do">Things To Do</string>
+    <string name="nav_weather">Weather</string>
+    <string name="nav_header_title">Ayia Napa Information</string>
+    <string name="btn_more">More..</string>
+
+    <string name="text_home_fragment">
+        Ayia Napa is a resort at the far eastern end of the southern coast of Cyprus. The name Ayia Napa is derived from a Venetian-era monastery of the same name, located in the centre of the town, next to the square that today is the clubbing centre. The word "Ayia" (Agia) means "holy" in Greek. "Napa" is archaic and means "wooded valley" or dell.\n\nIt is visited by hundreds of thousands of tourists every summer season. During the summer, the tourists in Ayia Napa are enjoying the sunny days and the numerous sandy beaches.\n\nMoreover, it has some of the best night life in Europe!! There ia a wide choice of clubs and over seventy bars - there is something for everyone in Ayia Napa. Whether you are looking for a beach holiday, a fun family break or going solo, it is a getaway for all tastes and types. It is packed with bars, clubs and entertainment to suit every taste and budget.
+    </string>
+    <string name="local_time">Local Time:</string>
+    <string name="main_languages">Main Languages:</string>
+    <string name="languages_values">Greek, English</string>
+    <string name="district">District:</string>
+    <string name="district_value">Famagusta</string>
+    <string name="country">Country:</string>
+    <string name="country_value">Cyprus</string>
+    <string name="currency">Currency:</string>
+    <string name="currency_value">Euro</string>
+
+</resources>

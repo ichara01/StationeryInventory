@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Horse Riding</string>
+    <string name="welcome_msg">Welcome to Joan\'s Ranch!</string>
+    <string name="meet_horses">Meet our horses and ponies</string>
+    <string name="riding_lessons">Riding Lessons for all ages and abilities</string>
+    <string name="upcoming_events">Upcoming Events</string>
+    <string name="contact_info">Contact Information</string>
+    <string name="timetable">Tuesday to Sunday from 8:00 - 20:00</string>
+    <string name="phone_number">+357 11 111111</string>
+    <string name="location">620 Eighth Avenue New York, NY 10018</string>
+</resources>

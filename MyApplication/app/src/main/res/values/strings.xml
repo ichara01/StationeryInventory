@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Music</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_help">User Manual</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="search_hint">Search Song</string>
+    <string name="title_activity_search_results">Results</string>
+    <string name="title_activity_audio_player">Music Player</string>
+    <string name="help_description">Show information about the app, like how to create/delete a playlist, add/remove a song from it.</string>
+    <string name="settings_description">User will be able to make app configurations like retrieve music files from cloud or locally.</string>
+    <string name="no_albums">No Albums are available</string>
+    <string name="albums_description">It\'will show all Albums. On click on arrow icon, the related songs list will be opened</string>
+    <string name="no_artists">No Artists are available</string>
+    <string name="artists_description">It\'will show all Artists. On click on arrow icon, the related songs list will be opened</string>
+    <string name="no_genres">No Genres are available</string>
+    <string name="genres_description">It\'will show all Genres. On click on arrow icon, the related songs list will be opened</string>
+    <string name="no_playlists">No Playlists are available</string>
+    <string name="playlists_description">It\'will show all Playlists. On click on arrow icon, the related songs list will be opened</string>
+    <string name="player_description">Audio player will play the selected song using Media Player library</string>
+    <string name="relatedSongs_description">Show related songs based on selected artist/album/genre/playlist</string>
+    <string name="songs_description">It\'will show all device \'s songs or a message that no songs are available. On click on play icon, the music play will be opened</string>
+</resources>

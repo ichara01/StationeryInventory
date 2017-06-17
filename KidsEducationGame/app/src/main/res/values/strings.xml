@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Kids Educational Game</string>
+    <string-array name="characters">
+        <item>Select a character</item>
+        <item>Mickey Mouse</item>
+        <item>Minnie Mouse</item>
+    </string-array>
+    <string name="selectCharacter">Select your favourite character</string>
+    <string name="SubmitAnswer">Submit</string>
+    <string name="Exit">Exit</string>
+    <string name="StartQuiz">Start new quiz</string>
+    <string name="Congratulations">You did it! Your score is </string>
+    <string name="ColorGame">Color Game</string>
+    <string name="NumberingGame">Numbering Game</string>
+    <string name="WrongAnswer">Wrong answer - Please try again</string>
+    <string name="RightAnswer">Well Done! :)</string>
+    <string name="MickeyLearnNum">Learn the number with Mickey</string>
+    <string name="MinnieLearnNum">Learn the number with Minnie</string>
+    <string name="MickeyColors">Help Mickey to find the colors</string>
+    <string name="MinnieColors">Help Minnie to find the colors</string>
+    <string name="ColorGameSelectCharacter">Please select a character before start the color game</string>
+    <string name="NumberingGameSelectCharacter">Please select a character before start the numbering game</string>
+    <string name="SelectCharacter">Please select a character</string>
+    <string name="ChooseGame">Choose a game</string>
+    <string name="FindColor">Find the color</string>
+    <string name="LearnNumbers">Learn the numbers</string>
+</resources>

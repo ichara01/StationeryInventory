@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="HeaderTextSize">25sp</dimen>
+    <dimen name="SubHeaderTextSize">18sp</dimen>
+    <dimen name="TextSize">16sp</dimen>
+    <dimen name="MenuMaxWidth">100dp</dimen>
+    <dimen name="MenuMaxHeight">100dp</dimen>
+</resources>

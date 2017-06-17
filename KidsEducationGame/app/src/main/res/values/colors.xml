@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#443d3d</color>
+    <color name="colorPrimaryDark">#0c0c0c</color>
+    <color name="colorAccent">#0107ad</color>
+    <color name="MickeyTextColor">#f90400</color>
+    <color name="MinnieTextColor">#c4014f</color>
+    <color name="red">#f90400</color>
+    <color name="green">#13ad05</color>
+    <color name="blue">#0107ad</color>
+    <color name="black">#0c0c0c</color>
+    <color name="white">#f9fafc</color>
+    <color name="pink">#FF4081</color>
+    <color name="yellow">#fcf402</color>
+    <color name="textColor">#0c0c0c</color>
+    <color name="lightGray">#A8A8A8</color>
+</resources>

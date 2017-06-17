@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout_restaurant_list_item"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:padding="@dimen/activity_horizontal_margin">
+    <ImageView
+        android:id="@+id/restaurant_img"
+        style="@style/list_item_image"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/restaurant_name"
+            style="@style/list_item_header"
+            android:paddingLeft="@dimen/item_padding"/>
+        <TextView
+            android:id="@+id/restaurant_cusines"
+            style="@style/list_item_description"
+            android:paddingLeft="@dimen/item_padding" />
+        <TextView
+            android:id="@+id/restaurant_price"
+            style="@style/list_item_description"
+            android:paddingLeft="@dimen/item_padding" />
+        <TextView
+            android:id="@+id/restaurant_address"
+            style="@style/list_item_description"
+            android:inputType="textPostalAddress"
+            android:paddingLeft="@dimen/item_padding" />
+    </LinearLayout>
+    <!--<Button-->
+        <!--android:id="@+id/simple_item_btn_more"-->
+        <!--style="@style/list_item_action_btn"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:text="@string/btn_more"/>-->
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="player1Set2" type="id"/>
+    <item name="player1Set3" type="id"/>
+    <item name="player1Set4" type="id"/>
+    <item name="player1Set5" type="id"/>
+    <item name="player1Set6" type="id"/>
+
+    <item name="player2Set2" type="id"/>
+    <item name="player2Set3" type="id"/>
+    <item name="player2Set4" type="id"/>
+    <item name="player2Set5" type="id"/>
+    <item name="player2Set6" type="id"/>
+
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="default_layout_padding">10dp</dimen>
+    <dimen name="default_item_padding">16dp</dimen>
+    <dimen name="player_padding">16dp</dimen>
+    <dimen name="titleFontSize">14dp</dimen>
+    <dimen name="detailsFontSize">12dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

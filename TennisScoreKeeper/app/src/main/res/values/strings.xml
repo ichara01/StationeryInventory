@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Tennis Score Keeper</string>
+    <string name="sets">Sets</string>
+    <string name="points">Points</string>
+    <string name="get_point">Point</string>
+    <string name="game_type">Game Type:</string>
+    <string name="single_game">Single</string>
+    <string name="double_game">Double</string>
+    <string name="start_match">Start Match</string>
+    <string name="num_set">Number of Set:</string>
+    <string name="info">Info</string>
+    <string-array name="sets">
+        <item>3</item>
+        <item>5</item>
+    </string-array>
+    <string name="resetMatch">Reset Match</string>
+    <string name="title_activity_custom_dialog">customDialog</string>
+</resources>
