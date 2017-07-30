@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">5dp</dimen>
+    <dimen name="activity_vertical_margin">5dp</dimen>
+    <dimen name="img_height">100dp</dimen>
+    <dimen name="layout_padding">8dp</dimen>
+    <dimen name="item_padding">5dp</dimen>
+    <dimen name="item_bigger_padding">10dp</dimen>
+    <dimen name="headerFontSize">14sp</dimen>
+    <dimen name="textFontSize">12sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>

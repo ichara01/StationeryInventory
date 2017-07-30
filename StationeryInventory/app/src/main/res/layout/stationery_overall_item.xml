@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_overall_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <ImageView
+        android:id="@+id/overall_item_img"
+        style="@style/list_item_image" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/item_bigger_padding">
+
+        <TextView
+            android:id="@+id/txt_overall_name"
+            style="@style/list_item_header" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/list_item_details_label"
+                android:text="@string/stationery_brand"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txt_overall_brand"
+                style="@style/list_item_details" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/list_item_details_label"
+                android:text="@string/stationery_quantity"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txt_overall_quantity"
+                style="@style/list_item_details" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/list_item_details_label"
+                android:text="@string/stationery_price"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txt_overall_price"
+                style="@style/list_item_details" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_overall_code"
+            style="@style/list_item_details"
+            android:visibility="invisible" />
+    </LinearLayout>
+</LinearLayout>

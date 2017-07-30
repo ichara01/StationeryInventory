@@ -1,0 +1,199 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_edit_stationery"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGray"
+    android:orientation="vertical"
+    tools:context="com.example.ioanna.stationeryinventory.EditStationery">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:elevation="6dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/layout_padding">
+
+        <ImageView
+            android:id="@+id/image_item"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/img_height"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edit_image_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="@string/stationey_image_name"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/btn_browse"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_Browse" />
+        </LinearLayout>
+    </LinearLayout>
+    <!--Name-->
+    <LinearLayout
+        android:id="@+id/layout_name"
+        style="@style/edit_item_row">
+
+        <TextView
+            android:id="@+id/txt_name"
+            style="@style/edit_item_header"
+            android:text="@string/stationery_name" />
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+    </LinearLayout>
+    <!--Brand-->
+    <LinearLayout
+        android:id="@+id/layout_supplier"
+        style="@style/edit_item_row">
+
+        <TextView
+            android:id="@+id/txt_supplier"
+            style="@style/edit_item_header"
+            android:text="@string/stationery_brand" />
+
+        <EditText
+            android:id="@+id/edit_supplier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+    </LinearLayout>
+    <!--Supplier Phone-->
+    <LinearLayout
+        android:id="@+id/layout_supplier_phone"
+        style="@style/edit_item_row">
+
+        <TextView
+            android:id="@+id/txt_supplier_phone"
+            style="@style/edit_item_header"
+            android:text="@string/stationery_supplier_phone" />
+
+        <EditText
+            android:id="@+id/edit_supplier_phone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:inputType="text" />
+
+        <ImageButton
+            android:id="@+id/btn_order"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="order"
+            android:src="@drawable/ic_phone" />
+    </LinearLayout>
+    <!--Quantity-->
+    <LinearLayout
+        android:id="@+id/layout_quantity"
+        style="@style/edit_item_row">
+
+        <TextView
+            android:id="@+id/txt_quantity"
+            style="@style/edit_item_header"
+            android:text="@string/stationery_quantity" />
+
+        <EditText
+            android:id="@+id/edit_quantity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:inputType="number"
+            android:paddingRight="@dimen/item_bigger_padding" />
+
+        <ImageButton
+            android:id="@+id/btn_increase"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:onClick="increaseQuantity"
+            android:src="@drawable/ic_increase" />
+
+        <ImageButton
+            android:id="@+id/btn_descrease"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:onClick="descreaseQuantity"
+            android:src="@drawable/ic_descrease" />
+    </LinearLayout>
+    <!--Price-->
+    <LinearLayout
+        android:id="@+id/layout_price"
+        style="@style/edit_item_row">
+
+        <TextView
+            android:id="@+id/txt_price"
+            style="@style/edit_item_header"
+            android:text="@string/stationery_price" />
+
+        <EditText
+            android:id="@+id/edit_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+    <!--Code-->
+    <TextView
+        android:id="@+id/txt_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/layout_padding">
+
+        <Button
+            android:id="@+id/btn_add_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:onClick="saveChanges"
+            android:text="@string/btn_Save" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:onClick="delete"
+            android:text="@string/btn_Delete" />
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:onClick="goToHome"
+            android:text="@string/btn_Close" />
+    </RelativeLayout>
+</LinearLayout>
